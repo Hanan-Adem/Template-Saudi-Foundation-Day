@@ -1,0 +1,131 @@
+* {
+  font-family: Tajawal, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  background-color: #fefbf1;
+}
+
+.logo {
+  width: 12%;
+  cursor: pointer;
+}
+
+/* 
+   #846c65 
+   #dcd2c9
+   #faf7f3
+   #72564b
+*/
+
+header {
+  background-color: #f3ebda;
+  width: 100%;
+  padding: 1.3rem 3.9rem;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  padding-left: 1rem;
+  text-decoration: none;
+  color: #735e58;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  color: #594742;
+}
+
+.container {
+  max-width: 31.188rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+aside {
+  position: fixed;
+  display: grid;
+  grid-template-rows: repeat(10, 5rem);
+}
+
+aside img {
+  width: 10%;
+  opacity: 26%;
+}
+
+.ima-1 {
+  position: absolute;
+  width: 44%;
+  left: 42rem;
+  opacity: 26%;
+  bottom: -2rem;
+}
+
+.img-2 {
+  position: absolute;
+  width: 47%;
+  left: 43rem;
+  bottom: -1rem;
+}
+
+.start {
+  position: absolute;
+  right: 42rem;
+  bottom: 5rem;
+}
+
+h1 {
+  direction: rtl;
+  font-size: 5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+p {
+  direction: rtl;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  line-height: 1.7;
+}
+
+button {
+  position: relative;
+  left: 15rem;
+  font-size: 1.2rem;
+  border: #846c65 1px solid;
+  background-color: #fefbf1;
+  padding: 0.5rem 1.7rem 0.5rem 1.7rem;
+  cursor: pointer;
+  color: #846c65;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: #846c65;
+  color: #faf7f3;
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px; /* remove scrollbar space /
+  background: transparent; / optional: just make scrollbar invisible /
+  }
+  / optional: show position indicator in red */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+}
